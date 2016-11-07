@@ -12,7 +12,6 @@
 		32013B0E1DCF710F00F2A87F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32013B0C1DCF710F00F2A87F /* Main.storyboard */; };
 		32013B101DCF710F00F2A87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32013B0F1DCF710F00F2A87F /* Assets.xcassets */; };
 		32013B131DCF710F00F2A87F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32013B111DCF710F00F2A87F /* LaunchScreen.storyboard */; };
-		32013B1B1DCF719500F2A87F /* TinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32013B1A1DCF719500F2A87F /* TinderViewController.swift */; };
 		32013B1D1DCF759300F2A87F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32013B1C1DCF759300F2A87F /* Card.swift */; };
 		32013B1F1DCF783000F2A87F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32013B1E1DCF783000F2A87F /* CardView.swift */; };
 		32013B211DD0368900F2A87F /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32013B201DD0368900F2A87F /* ImageManager.swift */; };
@@ -26,7 +25,6 @@
 		32013B0F1DCF710F00F2A87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32013B121DCF710F00F2A87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32013B141DCF710F00F2A87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32013B1A1DCF719500F2A87F /* TinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderViewController.swift; sourceTree = "<group>"; };
 		32013B1C1DCF759300F2A87F /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		32013B1E1DCF783000F2A87F /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		32013B201DD0368900F2A87F /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				32013B0F1DCF710F00F2A87F /* Assets.xcassets */,
 				32013B111DCF710F00F2A87F /* LaunchScreen.storyboard */,
 				32013B141DCF710F00F2A87F /* Info.plist */,
-				32013B1A1DCF719500F2A87F /* TinderViewController.swift */,
 				32013B1C1DCF759300F2A87F /* Card.swift */,
 				32013B1E1DCF783000F2A87F /* CardView.swift */,
 				32013B201DD0368900F2A87F /* ImageManager.swift */,
@@ -151,7 +148,6 @@
 			files = (
 				32013B0B1DCF710F00F2A87F /* ViewController.swift in Sources */,
 				32013B091DCF710F00F2A87F /* AppDelegate.swift in Sources */,
-				32013B1B1DCF719500F2A87F /* TinderViewController.swift in Sources */,
 				32013B211DD0368900F2A87F /* ImageManager.swift in Sources */,
 				32013B1D1DCF759300F2A87F /* Card.swift in Sources */,
 				32013B1F1DCF783000F2A87F /* CardView.swift in Sources */,
@@ -318,6 +314,7 @@
 				32013B191DCF710F00F2A87F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
